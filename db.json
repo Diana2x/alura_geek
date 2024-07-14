@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Lake Cover",
+      "description": "Description of Product 1",
+      "price": 19.99,
+      "image": "https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Product 2",
+      "description": "Description of Product 2",
+      "price": 29.99,
+      "image": "https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Product 3",
+      "description": "Description of Product 3",
+      "price": 39.99,
+      "image": "https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg"
+    }
+  ]
+}

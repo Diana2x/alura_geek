@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Press Start 2P", system-ui;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+nav {
+  width: 100%;
+  background-color: #5300c8;
+  height: 10vh;
+  min-height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  color: white;
+  font-size: clamp(14px, 2.2vw, 20px);
+}
+
+.content-container {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  gap: 20px;
+  padding-bottom: 20vh; /* Add padding to bottom to avoid footer overlap */
+}
+
+.display-container,
+.add_product-container {
+  flex: 1;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title-products,
+.title-add-product {
+  font-size: 18px;
+  color: #5300c8;
+  margin-bottom: 20px;
+}
+
+.display_products-container {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  min-height: 200px;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.add_product-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add_product-input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.add_product-button {
+  padding: 10px;
+  background-color: #5300c8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.add_product-button:hover {
+  background-color: #3e0099;
+}
+
+footer {
+  width: 100%;
+  background-color: #5300c8;
+  height: 15vh;
+  min-height: 60px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 16px;
+  color: white;
+  font-size: clamp(14px, 2.2vw, 20px);
+  position: fixed;
+  bottom: 0;
+}
+
+footer .footer-legend {
+  font-size: clamp(10px, 2.2vw, 16px);
+}
